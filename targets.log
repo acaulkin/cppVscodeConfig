@@ -1,0 +1,551 @@
+make all -f /home/cs6340/llvmintro/debug/Makefile -C /home/cs6340/llvmintro/debug --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jan 18 17:47:31 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/cs6340/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/cs6340/llvmintro/debug
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 39)
+SHELL = /bin/sh
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 45)
+RM = /usr/bin/cmake -E remove -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+TZ = Etc/UTC
+# environment
+_ = /home/cs6340/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 54)
+CMAKE_BINARY_DIR = /home/cs6340/llvmintro/debug
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 1)
+MAKEFILE_LIST :=  /home/cs6340/llvmintro/debug/Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/cs6340/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/cs6340/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:/opt/jdk8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-bb572991-7152-4991-b229-8d9d4f2a1f3a.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+SSH_AUTH_SOCK = /tmp/vscode-ssh-auth-ca959658e9513cfc2ccdd85e427a473171ccad09.sock
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/cs6340
+# default
+.LOADED := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/cs6340
+# environment
+REMOTE_CONTAINERS = true
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 48)
+EQUALS = =
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = 11dac4e9fa26
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := default_target
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 51)
+CMAKE_SOURCE_DIR = /home/cs6340/llvmintro
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+REMOTE_CONTAINERS_IPC = /tmp/vscode-remote-containers-ipc-ca959658e9513cfc2ccdd85e427a473171ccad09.sock
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrRsw
+# environment
+MFLAGS = -pqrRsw
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/cs6340/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin/helpers/browser.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 42)
+CMAKE_COMMAND = /usr/bin/cmake
+# automatic
+^F = $(notdir $^)
+# makefile (from '/home/cs6340/llvmintro/debug/Makefile', line 21)
+SUFFIXES = 
+# environment
+REMOTE_CONTAINERS_SOCKETS = ["/tmp/vscode-ssh-auth-ca959658e9513cfc2ccdd85e427a473171ccad09.sock","/home/cs6340/.gnupg/S.gpg-agent"]
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/cs6340/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=71/1024=7%, Rehash=0, Collisions=7/105=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+%.hpux_make_needs_suffix_list:
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+list_install_components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 85):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"PrereqPass\""
+
+install/local: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 61):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 106):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 129):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs6340/llvmintro/debug/CMakeFiles /home/cs6340/llvmintro/debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cs6340/llvmintro/debug/CMakeFiles 0
+
+PrereqPass: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 190):
+	$(MAKE) -f CMakeFiles/Makefile2 PrereqPass
+
+.PHONY: default_target cmake_force install/local install/local/fast install install/fast list_install_components list_install_components/fast rebuild_cache rebuild_cache/fast edit_cache edit_cache/fast install/strip install/strip/fast all clean clean/fast preinstall preinstall/fast depend install-PrereqPass-stripped install-PrereqPass-stripped/fast install-PrereqPass install-PrereqPass/fast PrereqPass PrereqPass/fast intrinsics_gen intrinsics_gen/fast src/Prereqs.o src/Prereqs.cpp.o src/Prereqs.i src/Prereqs.cpp.i src/Prereqs.s src/Prereqs.cpp.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 151):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+intrinsics_gen: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 203):
+	$(MAKE) -f CMakeFiles/Makefile2 intrinsics_gen
+
+src/Prereqs.cpp.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 235):
+	$(MAKE) -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/src/Prereqs.cpp.s
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/cs6340/llvmintro/debug/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-13 00:01:30.77755
+#  File has been updated.
+#  Successfully updated.
+
+ 
+src/Prereqs.i: src/Prereqs.cpp.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/Prereqs.o: src/Prereqs.cpp.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/strip/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 123):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 268):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 240):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... install-PrereqPass-stripped"
+	@echo "... install-PrereqPass"
+	@echo "... PrereqPass"
+	@echo "... install/strip"
+	@echo "... intrinsics_gen"
+	@echo "... src/Prereqs.o"
+	@echo "... src/Prereqs.i"
+	@echo "... src/Prereqs.s"
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 146):
+	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 156):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+intrinsics_gen/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 208):
+	$(MAKE) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/build
+
+install-PrereqPass-stripped/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 169):
+	$(MAKE) -f CMakeFiles/install-PrereqPass-stripped.dir/build.make CMakeFiles/install-PrereqPass-stripped.dir/build
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 136):
+	$(MAKE) -f CMakeFiles/Makefile2 clean
+
+install-PrereqPass/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 182):
+	$(MAKE) -f CMakeFiles/install-PrereqPass.dir/build.make CMakeFiles/install-PrereqPass.dir/build
+
+install/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 79):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/strip: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 117):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+
+list_install_components/fast: list_install_components
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install/local/fast: preinstall/fast
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 67):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+
+PrereqPass/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 195):
+	$(MAKE) -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/build
+
+src/Prereqs.s: src/Prereqs.cpp.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install-PrereqPass-stripped: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 164):
+	$(MAKE) -f CMakeFiles/Makefile2 install-PrereqPass-stripped
+
+src/Prereqs.cpp.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 226):
+	$(MAKE) -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/src/Prereqs.cpp.i
+
+src/Prereqs.cpp.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 217):
+	$(MAKE) -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/src/Prereqs.cpp.o
+
+install: preinstall
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 73):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+
+install-PrereqPass: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 177):
+	$(MAKE) -f CMakeFiles/Makefile2 install-PrereqPass
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/cs6340/llvmintro/debug/Makefile', line 95):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+# files hash-table stats:
+# Load=43/1024=4%, Rehash=0, Collisions=7/155=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 779 B / avg = 16 B
+# current buf: size = 8162 B / used = 779 B / count = 47 / avg = 16 B
+
+# strcache performance: lookups = 221 / hit rate = 78%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=1/221=0%
+# Finished Make data base on Tue Jan 18 17:47:31 2022
+
+ 

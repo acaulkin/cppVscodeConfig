@@ -1,0 +1,27 @@
+make PrereqPass -f /home/cs6340/llvmintro/debug/Makefile -C /home/cs6340/llvmintro/debug --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cs6340/llvmintro/debug'
+/usr/bin/cmake -S/home/cs6340/llvmintro -B/home/cs6340/llvmintro/debug --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 PrereqPass
+ 
+make[1]: Entering directory '/home/cs6340/llvmintro/debug'
+/usr/bin/cmake -S/home/cs6340/llvmintro -B/home/cs6340/llvmintro/debug --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/cs6340/llvmintro/debug/CMakeFiles 2
+make -f CMakeFiles/Makefile2 CMakeFiles/PrereqPass.dir/all
+make[2]: Entering directory '/home/cs6340/llvmintro/debug'
+make -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/depend
+make[3]: Entering directory '/home/cs6340/llvmintro/debug'
+cd /home/cs6340/llvmintro/debug && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cs6340/llvmintro /home/cs6340/llvmintro /home/cs6340/llvmintro/debug /home/cs6340/llvmintro/debug /home/cs6340/llvmintro/debug/CMakeFiles/PrereqPass.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/cs6340/llvmintro/debug'
+make -f CMakeFiles/PrereqPass.dir/build.make CMakeFiles/PrereqPass.dir/build
+make[3]: Entering directory '/home/cs6340/llvmintro/debug'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/cs6340/llvmintro/debug/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/PrereqPass.dir/src/Prereqs.cpp.o"
+/usr/bin/c++  -DGTEST_HAS_RTTI=0 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/usr/lib/llvm-8/include -I/home/cs6340/llvmintro/include  -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -w -ffunction-sections -fdata-sections -g -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fno-exceptions -fno-rtti -o CMakeFiles/PrereqPass.dir/src/Prereqs.cpp.o -c /home/cs6340/llvmintro/src/Prereqs.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/cs6340/llvmintro/debug/CMakeFiles --progress-num=2 "Linking CXX shared module PrereqPass.so"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/PrereqPass.dir/link.txt --verbose=
+make[3]: Leaving directory '/home/cs6340/llvmintro/debug'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/cs6340/llvmintro/debug/CMakeFiles --progress-num=1,2 "Built target PrereqPass"
+make[2]: Leaving directory '/home/cs6340/llvmintro/debug'
+/usr/bin/cmake -E cmake_progress_start /home/cs6340/llvmintro/debug/CMakeFiles 0
+make[1]: Leaving directory '/home/cs6340/llvmintro/debug'
+make: Leaving directory '/home/cs6340/llvmintro/debug'
+ 
